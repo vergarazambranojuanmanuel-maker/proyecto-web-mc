@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guía de reciclaje – EcoPortoviejo</title>
+  <meta name="description" content="Qué residuo va en cada contenedor y respuestas a preguntas frecuentes sobre reciclaje.">
+  <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <a class="salto" href="#contenido">Saltar al contenido principal</a>
+  <header class="cabecera">
+    <img src="img/logo.svg" alt="" width="48" height="48">
+    <p class="titulo">EcoPortoviejo</p>
+    <nav aria-label="Principal">
+      <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="guia.html" aria-current="page">Guía de reciclaje</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="contenido" class="contenido">
+    <h1>Guía de reciclaje</h1>
+    <section aria-labelledby="contenedores">
+      <h2 id="contenedores">Qué va en cada contenedor</h2>
+      <table>
+        <caption>Clasificación de residuos por contenedor</caption>
+        <thead>
+          <tr><th scope="col">Residuo</th><th scope="col">Contenedor</th><th scope="col">Ejemplos</th></tr>
+        </thead>
+        <tbody>
+          <tr><th scope="row">Papel</th><td>Azul</td><td>Cuadernos, cartón, periódicos</td></tr>
+          <tr><th scope="row">Plástico</th><td>Amarillo</td><td>Botellas, envases, bolsas limpias</td></tr>
+          <tr><th scope="row">Orgánico</th><td>Café</td><td>Restos de comida, cáscaras</td></tr>
+        </tbody>
+      </table>
+    </section>
+    <section aria-labelledby="faq">
+      <h2 id="faq">Preguntas frecuentes</h2>
+      <div class="acordeon">
+        <h3><button type="button" class="pregunta" id="p1" aria-controls="r1" aria-expanded="true">¿Debo lavar los envases?</button></h3>
+        <div class="respuesta" id="r1" role="region" aria-labelledby="p1"><p>Sí, basta con enjuagarlos para quitar restos de comida.</p></div>
+        <h3><button type="button" class="pregunta" id="p2" aria-controls="r2" aria-expanded="true">¿Puedo reciclar papel con grasa?</button></h3>
+        <div class="respuesta" id="r2" role="region" aria-labelledby="p2"><p>No. El papel con grasa va al contenedor orgánico.</p></div>
+        <h3><button type="button" class="pregunta" id="p3" aria-controls="r3" aria-expanded="true">¿Dónde se entregan las pilas?</button></h3>
+        <div class="respuesta" id="r3" role="region" aria-labelledby="p3"><p>En los puntos limpios del municipio; nunca en la basura común.</p></div>
+      </div>
+      <p>¿Más dudas? <a href="contacto.html">Escríbenos desde la página de contacto</a>.</p>
+    </section>
+  </main>
+  <footer class="pie">
+    <p>© 2026 EcoPortoviejo. Proyecto académico.</p>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>
